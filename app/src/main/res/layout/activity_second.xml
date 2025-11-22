@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Second"
+        >
+    <Button
+            android:text="@string/next"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnNext2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="64dp"
+            app:layout_constraintHorizontal_bias="0.82"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button"/>
+    <Button
+            android:text="@string/back"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnBack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="64dp"
+            app:layout_constraintHorizontal_bias="0.2"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button"/>
+
+    <ImageView
+        android:id="@+id/pose2"
+        android:layout_width="307dp"
+        android:layout_height="462dp"
+        app:srcCompat="@drawable/pose2"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
