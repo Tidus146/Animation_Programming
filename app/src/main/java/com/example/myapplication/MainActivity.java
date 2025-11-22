@@ -8,7 +8,6 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.content.Intent;
 import android.widget.ImageView;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -53,8 +52,9 @@ public class MainActivity extends AppCompatActivity {
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {MainActivity
-                finish()
+            public void onClick(View v) {
+                intent intent = new Intent(MainActivity.this, Second.class);
+                startActivity(intent);
             }
         });
     }
